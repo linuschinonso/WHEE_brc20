@@ -117,7 +117,7 @@ export default function Home() {
                   src="./wheebanner.jpg"
                 />
               </div>
-              <div class="flex col-auto justify-center gap-x-2 gap-y-3">
+              <div class="flex col-auto justify-center gap-x-2 gap-y-3 mb-5">
                 <p className="md:w-[50%] w-[80%]">
                   $WHEE BRC20 meme community: WHEE Sled Dog was deployed on the
                   Ordinals protocol on May 10th. It was minted within 3 hours
