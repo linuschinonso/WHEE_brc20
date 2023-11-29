@@ -16,16 +16,18 @@ export default function Home() {
               alt="Flowbite Logo"
             />
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Flowbite
+              WHEE
             </span>
           </a>
           <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button
-              type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
-              Join Us
-            </button>
+            <a href="https://x.com/Whee_Official_?t=rnLnINRiGdmkT-tab5rnmQ&s=09">
+              <button
+                type="button"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Join Us
+              </button>
+            </a>
             <button
               data-collapse-toggle="navbar-sticky"
               type="button"
@@ -149,14 +151,14 @@ export default function Home() {
           <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
               <div class="mb-6 md:mb-0">
-                <a href="https://flowbite.com/" class="flex items-center">
+                <a href="#" class="flex items-center">
                   <img
                     src="https://flowbite.com/docs/images/logo.svg"
                     class="h-8 me-3"
                     alt="FlowBite Logo"
                   />
                   <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">
-                    Flowbite
+                    Whee
                   </span>
                 </a>
               </div>
@@ -167,16 +169,19 @@ export default function Home() {
                   </h2>
                   <ul class="text-gray-500 text-gray-400 font-medium">
                     <li class="mb-4">
-                      <a href="https://flowbite.com/" class="hover:underline">
-                        Flowbite
+                      <a
+                        href="https://twitter.com/WheeBRC20/status/1702941926536704202?t=Q_kcvSnpxbFfqWJj-epZGA&s=19"
+                        class="hover:underline"
+                      >
+                        TwitterThread
                       </a>
                     </li>
                     <li>
                       <a
-                        href="https://tailwindcss.com/"
+                        href="https://twitter.com/WheeBRC20/status/1689737607499206659?t=9Pj43L_epnK_5Za5RHcakg&s=19"
                         class="hover:underline"
                       >
-                        Tailwind CSS
+                        Video Tutorial
                       </a>
                     </li>
                   </ul>
@@ -188,23 +193,23 @@ export default function Home() {
                   <ul class="text-gray-500 text-gray-400 font-medium">
                     <li class="mb-4">
                       <a
-                        href="https://github.com/themesberg/flowbite"
+                        href="https://t.me/WHEEGlobal"
                         class="hover:underline "
                       >
-                        Github
+                        Telegram
                       </a>
                     </li>
                     <li>
                       <a
-                        href="https://discord.gg/4eeurUVvTy"
+                        href="https://x.com/Whee_Official_?t=rnLnINRiGdmkT-tab5rnmQ&s=09"
                         class="hover:underline"
                       >
-                        Discord
+                        Twitter
                       </a>
                     </li>
                   </ul>
                 </div>
-                <div>
+                {/* <div>
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase text-white">
                     Legal
                   </h2>
@@ -220,7 +225,7 @@ export default function Home() {
                       </a>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto border-gray-700 lg:my-8" />
@@ -228,7 +233,7 @@ export default function Home() {
               <span class="text-sm text-gray-500 sm:text-center text-gray-400">
                 © 2023{" "}
                 <a href="https://flowbite.com/" class="hover:underline">
-                  Flowbite™
+                  designed by Linus Aziegwu
                 </a>
                 . All Rights Reserved.
               </span>
@@ -322,7 +327,7 @@ export default function Home() {
                       clip-rule="evenodd"
                     />
                   </svg>
-                  <span class="sr-only">Dribbble account</span>
+                  <span class="sr-only">Wheebrc20</span>
                 </a>
               </div>
             </div>
