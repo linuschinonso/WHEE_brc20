@@ -3,7 +3,7 @@ import { Card, Text, Metric } from "@tremor/react";
 import Link from "next/link";
 export default function Home() {
   return (
-    <div className="bg-[#ffffffdc] dark">
+    <div className="bg-[#ffffffdc] dark" data-mode="dark">
       <nav class="bg-dark dark:bg-gray-900  w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
