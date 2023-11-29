@@ -268,13 +268,13 @@ export default function Home() {
                   <span class="sr-only">Telegram</span>
                 </a>
                 <a
-                  href="#"
+                  href="https://t.me/WHEEGlobal"
                   class="text-gray-500 hover:text-gray-900 hover:text-white ms-5"
                 >
                   <svg
                     class="w-4 h-4"
                     aria-hidden="true"
-                    xmlns="https://t.me/WHEEGlobal"
+                    xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
                     viewBox="0 0 20 17"
                   >
@@ -287,7 +287,7 @@ export default function Home() {
                   <span class="sr-only">Twitter page</span>
                 </a>
                 <a
-                  href="#"
+                  href="https://x.com/Whee_Official_?t=rnLnINRiGdmkT-tab5rnmQ&s=09"
                   class="text-gray-500 hover:text-gray-900 hover:text-white ms-5"
                 >
                   <svg
