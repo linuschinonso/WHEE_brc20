@@ -89,7 +89,7 @@ export default function Home() {
       <div className="">
         <main className="bg-[#ffffffdc] flex-1 w-full">
           <div className="flex items-center justify-center mt-5">
-            <div class="flex justify-center gap-x-2 gap-y-3">
+            <div class="md:flex justify-center gap-x-2 gap-y-3">
               <img
                 class="w-[300px] h-[300px] ml-2 mr-2 pic"
                 src="./Whee1.jpg"
@@ -104,11 +104,11 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div>
+          <div className="flex-col justify-center items-center">
             <h2 class="text-4xl font-bold mt-10 mb-8 flex justify-center">
               About
             </h2>
-            <div class="flex justify-center gap-x-2 gap-y-3 mb-10">
+            <div class="md:flex justify-center gap-x-2 gap-y-3 mb-10">
               <img
                 class="w-[300px] h-[300px] ml-2 mr-2 banner"
                 src="./wheebanner.jpg"
