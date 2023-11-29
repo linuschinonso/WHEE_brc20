@@ -89,20 +89,23 @@ export default function Home() {
       <div className="">
         <main className="bg-[#ffffffdc] flex-1 w-full">
           <div className="flex items-center justify-center mt-5">
-            <div class="md:flex justify-center gap-x-2 gap-y-3">
+            <div class="flex col-auto justify-center gap-x-2 gap-y-3">
               <img
                 class="w-[300px] h-[300px] ml-2 mr-2 pic"
                 src="./Whee1.jpg"
               />
-
-              <p className="w-[50%]">
-                $WHEE is the native BRC20 Meme coin of Bitcoin Ordinals. It was
-                minted in 3 hours at the peak of gas{`>`}100 on May 10, and it
-                has been 4 months now. Both Chinese and English communities have
-                holders preaching on consensus, and their popularity in the
-                entire Ordinals community is not low.
-              </p>
+              <br />
             </div>
+          </div>
+          <br />
+          <div class="flex col-auto justify-center gap-x-2 gap-y-3">
+            <p className="w-[50%]">
+              $WHEE is the native BRC20 Meme coin of Bitcoin Ordinals. It was
+              minted in 3 hours at the peak of gas{`>`}100 on May 10, and it has
+              been 4 months now. Both Chinese and English communities have
+              holders preaching on consensus, and their popularity in the entire
+              Ordinals community is not low.
+            </p>
           </div>
           <div className="flex-col justify-center items-center">
             <h2 class="text-4xl font-bold mt-10 mb-8 flex justify-center">
