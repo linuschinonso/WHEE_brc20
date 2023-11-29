@@ -114,8 +114,9 @@ export default function Home() {
                   class="w-[300px] h-[300px] ml-2 mr-2 banner"
                   src="./wheebanner.jpg"
                 />
-
-                <p className="w-[50%]">
+              </div>
+              <div class="flex col-auto justify-center gap-x-2 gap-y-3">
+                <p className="md:w-[50%] w-[80%]">
                   $WHEE BRC20 meme community: WHEE Sled Dog was deployed on the
                   Ordinals protocol on May 10th. It was minted within 3 hours
                   and cost 1.5 million US dollars in gas fees. The total amount
