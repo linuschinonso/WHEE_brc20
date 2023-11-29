@@ -90,16 +90,13 @@ export default function Home() {
         <main className="bg-[#ffffffdc] flex-1 w-full">
           <div className="flex items-center justify-center mt-5">
             <div class="flex col-auto justify-center gap-x-2 gap-y-3">
-              <img
-                class="w-[300px] h-[300px] ml-2 mr-2 pic"
-                src="./Whee1.jpg"
-              />
+              <img class="w-[300px] h-[300px] ml-2 mr-2" src="./Whee1.jpg" />
               <br />
             </div>
           </div>
           <br />
           <div class="flex col-auto justify-center gap-x-2 gap-y-3">
-            <p className="md:w-[50%]">
+            <p className="md:w-[50%] w-[80%]">
               $WHEE is the native BRC20 Meme coin of Bitcoin Ordinals. It was
               minted in 3 hours at the peak of gas{`>`}100 on May 10, and it has
               been 4 months now. Both Chinese and English communities have
