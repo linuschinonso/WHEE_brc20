@@ -104,25 +104,27 @@ export default function Home() {
               Ordinals community is not low.
             </p>
           </div>
-          <div className="flex-col justify-center items-center">
-            <h2 class="text-4xl font-bold mt-10 mb-8 flex justify-center">
-              About
-            </h2>
-            <div class="md:flex justify-center gap-x-2 gap-y-3 mb-10">
-              <img
-                class="w-[300px] h-[300px] ml-2 mr-2 banner"
-                src="./wheebanner.jpg"
-              />
+          <div className="flex justify-center items-center">
+            <div className="flex-col justify-center items-center">
+              <h2 class="text-4xl font-bold mt-10 mb-8 flex justify-center">
+                About
+              </h2>
+              <div class="flex justify-center gap-x-2 gap-y-3 mb-10">
+                <img
+                  class="w-[300px] h-[300px] ml-2 mr-2 banner"
+                  src="./wheebanner.jpg"
+                />
 
-              <p className="w-[50%]">
-                $WHEE BRC20 meme community: WHEE Sled Dog was deployed on the
-                Ordinals protocol on May 10th. It was minted within 3 hours and
-                cost 1.5 million US dollars in gas fees. The total amount is 21
-                million, the current price is 300 Satoshi (0.1U) (2023.11.19),
-                the market value is 2.1 million US dollars, the currency holding
-                address is 5180, and the community has been running for more
-                than 6 months.
-              </p>
+                <p className="w-[50%]">
+                  $WHEE BRC20 meme community: WHEE Sled Dog was deployed on the
+                  Ordinals protocol on May 10th. It was minted within 3 hours
+                  and cost 1.5 million US dollars in gas fees. The total amount
+                  is 21 million, the current price is 300 Satoshi (0.1U)
+                  (2023.11.19), the market value is 2.1 million US dollars, the
+                  currency holding address is 5180, and the community has been
+                  running for more than 6 months.
+                </p>
+              </div>
             </div>
           </div>
           {/* <div className="self-center items-center inline-block">
