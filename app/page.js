@@ -99,7 +99,7 @@ export default function Home() {
           </div>
           <br />
           <div class="flex col-auto justify-center gap-x-2 gap-y-3">
-            <p className="w-[50%]">
+            <p className="md:w-[50%]">
               $WHEE is the native BRC20 Meme coin of Bitcoin Ordinals. It was
               minted in 3 hours at the peak of gas{`>`}100 on May 10, and it has
               been 4 months now. Both Chinese and English communities have
