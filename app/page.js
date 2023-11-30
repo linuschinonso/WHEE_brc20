@@ -140,7 +140,7 @@ export default function Home() {
           <div className="flex justify-center items-center">
             <div className="flex-col justify-center items-center">
               <h2 className="text-4xl font-bold mt-10 mb-8 flex justify-center">
-                Whee Contract Information
+                Contract Information
               </h2>
               <div className="flex justify-center gap-x-2 gap-y-3 mb-10">
                 <img
@@ -148,7 +148,7 @@ export default function Home() {
                   src="./wheebanner.jpg"
                 />
               </div>
-              <div className="flex col-auto justify-center gap-x-2 gap-y-3 mb-5 md:w-[50%] w-[80%]">
+              <div className="flex col-auto justify-center gap-x-2 gap-y-3 mb-5 md:w-[55%] w-[80%]">
                 <p>
                   WHEE Contract ETH: 0x2512c545A0117353e4E9aCDdfF860342640d3CF6
                   WHEE Contract BSC: 0x62238038abeae5a667cde8769e708c5a07d7addb
