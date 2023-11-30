@@ -109,7 +109,13 @@ export default function Home() {
               minted in 3 hours at the peak of gas{`>`}100 on May 10, and it has
               been 4 months now. Both Chinese and English communities have
               holders preaching on consensus, and their popularity in the entire
-              Ordinals community is not low.
+              Ordinals community is not low. Snowdog WHEE Contract: ETH & BSC
+              (Multibit Bridge) multibit.exchange Cross-Chains Supported
+              <span class="text-black">
+                0x2512c545A0117353e4E9aCDdfF860342640d3CF6
+              </span>{" "}
+              ✳ Three chains in one ♻ Bidirectional interworking ✅
+              ETH Â Â BTC Â Â BSC
             </p>
           </div>
           <div className="flex justify-center items-center">
