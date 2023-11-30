@@ -137,31 +137,6 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex justify-center items-center">
-            <div className="flex-col justify-center items-center">
-              <h2 className="text-4xl font-bold mt-10 mb-8 flex justify-center">
-                Contract Info
-              </h2>
-              <div className="flex justify-center gap-x-2 gap-y-3 mb-10">
-                <img
-                  className="w-[300px] h-[300px] ml-2 mr-2 banner"
-                  src="./wheebanner.jpg"
-                />
-              </div>
-              <div className="flex justify-center w-4/5">
-                <div className="w-full md:w-1/2">
-                  <p className="text-center">
-                    WHEE Contract ETH:
-                    0x2512c545A0117353e4E9aCDdfF860342640d3CF6
-                    <br />
-                    WHEE Contract BSC:
-                    0x62238038abeae5a667cde8769e708c5a07d7addb
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* <div className="self-center items-center inline-block">
             <h3 className="ml-5 m-5">Contact Us</h3>
             <input className="w-[300px] self-center justify-center h-[40px] border-[1.8px] border-[grey] m-2 rounded-[5px]" />
