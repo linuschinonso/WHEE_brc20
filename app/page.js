@@ -172,9 +172,10 @@ export default function Home() {
                     data-aos="zoom-in-up"
                     className="md:w-[50%] w-[80%] flex-wrap"
                   >
-                    0x2512c545A0117353e4E9aCDdf
+                    {" "}
+                    0x2512c545a0117353e4e9
                     <br />
-                    F860342640d3CF6
+                    acddff860342640d3cf6
                   </code>
                   <p data-aos="fade-left" className="md:w-[50%] w-[80%]">
                     WHEE Contract ADDRESS BSC
