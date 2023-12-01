@@ -2,9 +2,15 @@
 import Image from "next/image";
 import { Card, Text, Metric } from "@tremor/react";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Aos from "aos";
+import "./aos.css";
 export default function Home() {
   const [nav, setNav] = useState(true);
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="bg-[#ffffffdc] dark" data-mode="dark">
       <nav class="bg-dark dark:bg-gray-900  w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
@@ -98,12 +104,19 @@ export default function Home() {
         <main className="bg-[#ffffffdc] flex-1 w-full">
           <div className="flex items-center justify-center mt-5">
             <div class="flex col-auto justify-center gap-x-2 gap-y-3">
-              <img class="w-[300px] h-[300px] ml-2 mr-2" src="./Whee1.jpg" />
+              <img
+                data-aos="fade-left"
+                class="w-[300px] h-[300px] ml-2 mr-2"
+                src="./Whee1.jpg"
+              />
               <br />
             </div>
           </div>
           <br />
-          <div class="flex col-auto justify-center gap-x-2 gap-y-3">
+          <div
+            data-aos="fade-left"
+            class="flex col-auto justify-center gap-x-2 gap-y-3"
+          >
             <p className="md:w-[50%] w-[80%]">
               $WHEE is the native BRC20 Meme coin of Bitcoin Ordinals. It was
               minted in 3 hours at the peak of gas{`>`}100 on May 10, and it has
@@ -119,12 +132,13 @@ export default function Home() {
               </h2>
               <div class="flex justify-center gap-x-2 gap-y-3 mb-10">
                 <img
+                  data-aos="fade-right"
                   class="w-[300px] h-[300px] ml-2 mr-2 banner"
                   src="./wheebanner.jpg"
                 />
               </div>
               <div class="flex col-auto justify-center gap-x-2 gap-y-3 mb-5">
-                <p className="md:w-[50%] w-[80%]">
+                <p data-aos="fade-right" className="md:w-[50%] w-[80%]">
                   $WHEE BRC20 meme community: WHEE Sled Dog was deployed on the
                   Ordinals protocol on May 10th. It was minted within 3 hours
                   and cost 1.5 million US dollars in gas fees. The total amount
@@ -133,6 +147,44 @@ export default function Home() {
                   currency holding address is 5180, and the community has been
                   running for more than 6 months.
                 </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="flex-col justify-center items-center">
+              <h2 class="text-4xl font-bold mt-10 mb-8 flex justify-center">
+                Contract Info
+              </h2>
+              <div class="flex justify-center gap-x-2 gap-y-3 mb-10">
+                <img
+                  data-aos="fade-left"
+                  class="w-[300px] h-[300px] ml-2 mr-2 banner"
+                  src="./wheebanner.jpg"
+                />
+              </div>
+              <div class="flex col-auto justify-center gap-x-2 gap-y-3 mb-5">
+                <div className="p-5">
+                  <p data-aos="fade-left" className="md:w-[50%] w-[80%]">
+                    WHEE Contract ADDRESS ETH
+                  </p>
+                  <br />
+                  <code
+                    data-aos="zoom-in-up"
+                    className="md:w-[50%] w-[80%] flex-wrap"
+                  >
+                    0x2512c545A0117353e4E9aCDdfF860342640d3CF6
+                  </code>
+                  <p data-aos="fade-left" className="md:w-[50%] w-[80%]">
+                    WHEE Contract ADDRESS BSC
+                  </p>
+                  <br />
+                  <code
+                    data-aos="zoom-in-up"
+                    className="md:w-[50%] w-[80%] flex-wrap"
+                  >
+                    0x62238038abeae5a667cde8769e708c5a07d7addb
+                  </code>
+                </div>
               </div>
             </div>
           </div>
