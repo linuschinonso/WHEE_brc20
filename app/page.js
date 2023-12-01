@@ -159,7 +159,7 @@ export default function Home() {
                 <img
                   data-aos="fade-left"
                   class="w-[300px] h-[300px] ml-2 mr-2 banner"
-                  src="./wheebanner.jpg"
+                  src="./contract.jpg"
                 />
               </div>
               <div class="flex col-auto justify-center gap-x-2 gap-y-3 mb-5">
@@ -172,14 +172,18 @@ export default function Home() {
                     data-aos="zoom-in-up"
                     className="md:w-[50%] w-[80%] flex-wrap"
                   >
-                    0x2512c545A0117353e4E9aCDdfF860342640d3CF6
+                    0x2512c545A0117353e4E9aCDdf
+                    <br />
+                    F860342640d3CF6
                   </code>
                   <p data-aos="fade-left" className="md:w-[50%] w-[80%]">
                     WHEE Contract ADDRESS BSC
                   </p>
                   <br />
                   <code data-aos="zoom-in-up" className="md:w-[50%] w-[80%]">
-                    0x62238038abeae5a667cde8769e708c5a07d7addb
+                    0x62238038abeae5a667cde876
+                    <br />
+                    9e708c5a07d7addb
                   </code>
                 </div>
               </div>
