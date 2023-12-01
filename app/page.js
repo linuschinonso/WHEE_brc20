@@ -178,10 +178,7 @@ export default function Home() {
                     WHEE Contract ADDRESS BSC
                   </p>
                   <br />
-                  <code
-                    data-aos="zoom-in-up"
-                    className="md:w-[50%] w-[80%] flex-wrap"
-                  >
+                  <code data-aos="zoom-in-up" className="md:w-[50%] w-[80%]">
                     0x62238038abeae5a667cde8769e708c5a07d7addb
                   </code>
                 </div>
